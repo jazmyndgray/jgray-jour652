@@ -103,6 +103,7 @@ li {
     display:inline-block;
 }
 
+/* Education Styles */
 #degrees {
     margin-top: 5px;
     margin-bottom: 0px;
@@ -110,6 +111,7 @@ li {
     margin-right: 0px;
 }
 
+/* Skills List Styles */
 #do{
     margin-top: 5px;
     margin-bottom: 0px;
@@ -117,6 +119,7 @@ li {
     margin-right: 0px;
 }
 
+/* Top Section Styles */
 .top{
     width: 60%;
     min-width: 300px;
