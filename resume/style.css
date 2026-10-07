@@ -1,0 +1,58 @@
+/* Styles for my Resume */
+
+/* Set default fonts for body */
+BODY {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* Name Styles */
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #33485e;
+}
+
+/* Title Styles */
+strong{
+    color: #33485e;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/* Section Header Styles*/
+h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: #fff;
+    text-weight: 400;
+}
+
+/* Job Title Styles*/
+h3{
+    text-weight: 600;
+    font-size: 1.5em;
+}
+
+/* Job Org Styles*/
+h4{
+    text-weight: 400;
+    font-size: 1.5em;
+}
+
+/* Job Date Styles*/
+h5{
+    text-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+}
+
+/* List Item Styles*/
+li{
+    font-size: 1em;
+}
