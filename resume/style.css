@@ -29,10 +29,16 @@ BODY {
 }
 
 /* Title Styles */
-strong {
+#title {
     color: #33485e;
     text-transform: uppercase;
     font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* Section Header Styles*/
@@ -51,25 +57,69 @@ strong {
 }
 
 /* Job Title Styles*/
-h3 {
+.jobtitle {
     font-weight: 600;
     font-size: 1.5em;
 }
 
 /* Job Org Styles*/
-h4 {
+.organization {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /* Job Date Styles*/
-h5 {
+.date {
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* List Item Styles*/
 li {
     font-size: 1em;
+}
+
+/* Description Styles */
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*Contact Styles*/
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Taget specific items for inline arrangement*/
+.menu li{
+    display:inline-block;
+}
+
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#do{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
