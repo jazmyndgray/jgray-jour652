@@ -30,24 +30,24 @@ h2{
     text-transform: uppercase;
     background-color: #33485e;
     color: #fff;
-    text-weight: 400;
+    font-weight: 400;
 }
 
 /* Job Title Styles*/
 h3{
-    text-weight: 600;
+    font-weight: 600;
     font-size: 1.5em;
 }
 
 /* Job Org Styles*/
 h4{
-    text-weight: 400;
+    font-weight: 400;
     font-size: 1.5em;
 }
 
 /* Job Date Styles*/
 h5{
-    text-weight: 400;
+    font-weight: 400;
     font-size: 1em;
     font-style: italic;
 }
