@@ -1,0 +1,49 @@
+
+#content {
+  margin: 0 auto;
+  width: 900px; 
+} 
+
+ {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+blockquote {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+figcaption {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color:gray;
+}
