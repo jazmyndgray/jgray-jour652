@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Noto Serif', serif;
+    size: 20px;
+}
+h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: helvetica, arial, sans-serif;
+    size: 13px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+figcaption {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color:gray;
+}
+
+.author {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color:gray;
+}
+
+#dateline {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    color:gray;
+}
+
+/* Content wrapper styles */
+#content {
+  margin: 0 auto;
+  padding: 10%;
+  line-height: 1.5;
+  font-family: helvetica; sans-serif;
+}
+
+blockquote {
+    font-family: 'Noto Serif', serif;
+    font-style: bold;
+    font-size: 20px;
+    color:green;
+}

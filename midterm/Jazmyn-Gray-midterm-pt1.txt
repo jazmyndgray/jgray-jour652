@@ -1,0 +1,199 @@
+﻿Jour652: Midterm
+Part 1: Q&A
+
+
+Directions:
+
+
+1.  The only thing you should have open on your desktop is this text file in VS Code or other text editor. 
+
+
+2. You may only use your brain only. Put away all books, papers, notes, etc. Put away all electronic devices. Close all browsers and all other programs. Do not turn on syntax highlighting.
+
+
+4.  Answer every question.
+
+
+5.  If you don't understand what I'm asking for on a question, please ask me.
+
+
+6. When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.  
+
+
+****
+
+
+Questions
+
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+
+<a href="https://www.google.com/" target="_blank"> Google </a> is the best search engine in the world.
+
+
+
+
+
+
+
+
+2.  Describe the purpose of a DIV tag.
+
+DIV tags create containers around code blocks. They makes it easier for us to group elements and apply styles to entire sections.
+
+
+
+
+
+
+
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample paragraph to demonstrate the structure of an HTML document.</p>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+
+The stylesheet goes in the <head> section.
+
+
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+That typically goes in the <body> section.
+
+
+
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> </title>
+    </head>
+    <body>
+    <div class="graphicbox">
+        <h1> Something here </h1>
+       <div id="name"> 
+       <p>This is where I'm putting my name.</p> 
+       </div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> </title>
+    </head>
+    <body>
+    <h1>FRUIT</h1>
+    <div class="fruit" id="apples">
+       <p>This is where I'm talking about apples.</p> 
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+
+.fruit {
+    color: #000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+<img>
+
+
+
+
+
+
+10.  Why do we use media queries?
+
+We use media queries for responsive web design, changing something in the presentation depending on the screen's orientation or size. 
+
+
+
+
+
+
+11. What is the main difference between a serif and a sans-serif font?
+
+
+Serif fonts are more traditional, while sans-serif fonts are seen as more modern because they lack the extra ridges on the text.
+
+
+
+
+
+12. Which of the following is a hexadecimal code?
+1. #FFCC33
+2. 123,543,242
+3. 101010101
+4. -213
+
+#1 is a hexadecimal code.
