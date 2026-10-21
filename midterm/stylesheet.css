@@ -54,7 +54,7 @@ figcaption {
   margin: 0 auto;
   padding: 10%;
   line-height: 1.5;
-  font-family: helvetica; sans-serif;
+  font-family: helvetica, arial, sans-serif;
 }
 
 blockquote {
