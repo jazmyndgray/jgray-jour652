@@ -1,0 +1,43 @@
+
+img {
+    max-width: 100%;
+}
+
+ .bi {
+   font-size:3em;
+ }
+
+ .col-md-4 {
+   text-align: center;
+ }
+
+ .container-fluid {
+    color: #ffff;
+ }
+
+ .nav-link {
+color: #b22a1e;
+font-family: Newsreader; serif;
+ }
+
+/* CSS: Target the links, hover states, and active items */
+
+/* 1. Base link color */
+.nav-item, .nav-link, .dropdown-item {
+color: #b22a1e;
+font-family: Newsreader; serif;
+}
+
+/* 2. Hover and focus states */
+.navbar-custom, .navbar-nav, .nav-item:hover,
+.navbar-custom, .navbar-nav, .nav-item:focus {
+color: #d62838;
+font-family: Newsreader; serif;
+}
+
+/* 3. Active item color (the page the user is currently on) */
+.navbar-nav, .nav-link-active {
+color: #d62838;
+font-family: Newsreader; serif;
+font-weight: bold;
+}
