@@ -127,10 +127,6 @@ p{
   border-radius: 20px; 
 }
 
-/* Card Hover */
-.box:hover {
-  transform:translateY(-1%)
-}
 
 /* Styling for the school and dates */
 .institution {
