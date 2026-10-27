@@ -5,7 +5,7 @@ img {
     padding-top: 10px;
 }
 
- /*.bi {
+ .bi {
    font-size:3em;
  }
 
@@ -15,7 +15,7 @@ img {
 
  .col {
   text-align: center;
- } */
+ } 
 
 
 .navbar-custom .navbar-nav .nav-link {
@@ -87,18 +87,19 @@ p{
  
 
  .btn {
-   background-color: #de3143;  /* Fills button on hover */
-    color: #ffffff;            /* White text on hover */
+   background-color: #de3143;  
+    color: #ffffff;            
     border-color: #de3143; 
     font-family: 'Newsreader', serif;
     font-size: 20px;
+    align-items: center;
     border-radius: 20px;       /* Rounds button edges to match the input */
  }
 
  /* CV Button Hover State */
 .btn:hover {
-    background-color: #3a618a;  /* Fills button on hover */
-    color: #ffffff;            /* White text on hover */
+    background-color: #3a618a;  
+    color: #ffffff;            
     border-color: #3a618a; 
     font-family: 'Newsreader', serif;
 }
@@ -191,4 +192,9 @@ i {
   .about {
     padding: 10px;
   }
+}
+
+.d-block {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
