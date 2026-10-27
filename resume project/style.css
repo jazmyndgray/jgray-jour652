@@ -5,7 +5,7 @@ img {
     padding-top: 10px;
 }
 
- .bi {
+ /*.bi {
    font-size:3em;
  }
 
@@ -13,66 +13,32 @@ img {
    text-align: center;
  }
 
-/* Base style for all normal navbar links */
+ .col {
+  text-align: center;
+ } */
+
+
 .navbar-custom .navbar-nav .nav-link {
-    color: #6b2a2b; 
+    color: #6b2a2b;
     font-family: 'Newsreader', serif;
     font-size: 20px;
     padding: 10px;
 }
 
-/* Style when hovering over navbar links */
 .navbar-custom .navbar-nav .nav-link:hover,
 .navbar-custom .navbar-nav .nav-link:focus {
-    color: #de3143; 
-    font-family: 'Newsreader', serif;
-    font-size: 20px;
+    color: #de3143;
 }
 
-/* Style for the active link in navbar */
 .navbar-custom .navbar-nav .nav-link.active {
-    color: #de3143; 
+    color: #de3143;
     font-weight: bold;
-    font-family: 'Newsreader', serif;
-    font-size: 20px;
 }
 
-/* Style for dropdown items */
-.navbar-custom .dropdown-menu .dropdown-item {
-    color: #6b2a2b;
-    font-family: 'Newsreader', serif;
-    font-size: 20px;
-}
-
-
-
-/* Styles for the Search Button */
-.navbar-custom .btn-outline-success {
-    color: #ffff;            /* Text/Border color */
-    border-color: #de3143;
-    border-radius: 20px;       /* Rounds button edges to match the input */
-    font-family: 'Newsreader', serif;
-    font-size: 20px;
-}
-
-/* Search Button Hover State */
-.navbar-custom .btn-outline-success:hover {
-    background-color: #3a618a;  /* Fills button on hover */
-    color: #ffffff;            /* White text on hover */
-    border-color: #3a618a; 
-    font-family: 'Newsreader', serif;
-    font-size: 20px; } 
-
-/* the placeholder text specifically */
-.navbar-custom .form-control::placeholder {
-    font-family: 'Newsreader', serif;
-    font-size: 20px;
-}
 
 h1 {
   color: #1A3450;
   font-family: 'Newsreader', serif;
-  font-weight: 30;
   text-align: center;
   padding-top: 20px;
   font-size: 50px;
@@ -87,15 +53,12 @@ p{
 }
 
 .about {
-  display: flex;
-  flex-direction: row;    
-  justify-content: center;   
-  align-items: center;      
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: left;       
-  padding-top: 20px; 
+  align-items: center;
+  padding: 20px;
+  text-align: left;
 }
+
+
 
  .content {
   color: #1A3450;
@@ -121,6 +84,7 @@ p{
  .date {
   font-style: italic;
  }
+ 
 
  .btn {
    background-color: #de3143;  /* Fills button on hover */
@@ -141,4 +105,94 @@ p{
 
 .experience-hed {
   padding-top: 40px;
+}
+
+#experience {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#degrees {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+/* education panels/cards */
+.box {
+  background-color: #ffffff;
+  border: 1px solid #de3143;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  border-radius: 20px; 
+}
+
+/* Card Hover */
+.box:hover {
+  transform:translateY(-1%)
+}
+
+/* Styling for the school and dates */
+.institution {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1A3450;
+  margin-bottom: 4px;
+}
+
+.time {
+  font-size: 0.875rem;
+  color: #1A3450;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Styling for actual degrees */
+.program-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.program {
+  font-size: 1rem;
+  color: #1A3450;
+  background-color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #de3143;
+  font-weight: 500;
+}
+
+i {
+  color:#de3143
+}
+
+
+.clips img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .experience {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .jobtitle {
+    font-size: 22px;
+  }
+
+  .about {
+    padding: 10px;
+  }
 }
