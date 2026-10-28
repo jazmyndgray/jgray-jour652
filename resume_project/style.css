@@ -3,6 +3,7 @@ img {
     max-width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
+    object-fit: cover;
 }
 
  .bi {
@@ -93,7 +94,9 @@ p{
     font-family: 'Newsreader', serif;
     font-size: 20px;
     align-items: center;
-    border-radius: 20px;       /* Rounds button edges to match the input */
+    border-radius: 20px;       /* Rounds button edges */
+    margin-bottom: 10px;
+    margin-top: 10px;
  }
 
  /* CV Button Hover State */
@@ -174,27 +177,8 @@ i {
   padding: 0;
 }
 
-
-@media (max-width: 767.98px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  .experience {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .jobtitle {
-    font-size: 22px;
-  }
-
-  .about {
-    padding: 10px;
-  }
-}
-
-.d-block {
-  margin-top: 20px;
-  margin-bottom: 10px;
+figcaption {
+  color: #3a618a;
+  font-size: 10px;
+  font-style: italic;
 }
