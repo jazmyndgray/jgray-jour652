@@ -1,0 +1,54 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+```{r}
+library(tidyverse)
+library(sf)
+library(janitor)
+library(lubridate)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+```{r}
+historical_air_pollution_lahore <- read.csv("~/Desktop/JOUR/GitHub/jgray-jour652/final-project/data-viz/historical_air_pollution_all_lahore.csv")
+
+historical_air_pollution_lahore_clean <- historical_air_pollution_lahore |> clean_names() |>
+  mutate(time=hour(timestamp)) |> mutate(date = date(timestamp)) |> mutate(year = year(timestamp)) 
+
+write_csv(historical_air_pollution_lahore_clean, "~/Desktop/JOUR/GitHub/jgray-jour652/final-project/data-viz/historical_air_pollution_lahore_clean.csv")
+
+historical_air_pollution_year <- historical_air_pollution_lahore_clean |> 
+  group_by(year) |>
+  summarize(avg_aqi = mean(aqi)) 
+
+write_csv(historical_air_pollution_year, "~/Desktop/JOUR/GitHub/jgray-jour652/final-project/data-viz/historical_air_pollution_year.csv")
+
+historical_air_pollution_compare_time <- historical_air_pollution_lahore_clean |> 
+filter(
+    month(date) == 5,
+    day(date) == 27,
+    time == 12
+  )
+
+write_csv(historical_air_pollution_compare_time, "~/Desktop/JOUR/GitHub/jgray-jour652/final-project/data-viz/historical_air_pollution_compare_time.csv")
+
+```
+ 
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
