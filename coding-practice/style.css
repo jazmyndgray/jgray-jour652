@@ -1,0 +1,156 @@
+BODY {
+  font-family: 'PT Serif', serif;
+}
+
+
+.container {
+  text-align:center;
+}
+
+p{
+  text-align:left;
+  line-height:180%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* TOPHAT */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  color:#ffff;
+  margin:0 auto;
+  text-transform:uppercase;
+}
+
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'times new roman', serif;
+  color:#ffff;
+
+}
+
+.chapter-head {
+  font-size:2em;
+  font-family: 'Playfair Display', serif;
+  padding-top:20px;
+  font-weight:700;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  height:100%;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff
+}
+
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+/* HERO IMAGE */
+.hero-container {
+  position: relative;
+  text-align: center;
+  color:#ffff;
+  width: 100%;
+}
+
+/* OVERLAY GOES ON TOP OF HERO IMAGE */
+.overlay {
+  position: absolute;
+  top: 20%;
+  Opacity: 0.7; 
+  width: 100%;
+  background-color: #000;
+}
+
+
+.red {
+  color:#f23030;
+}
+
+
+.hero-hed {
+  font-size:6em;
+  font-family: 'Playfair Display', serif;
+  margin 0 auto;
+  font-weight:700;
+  color:#ffff;
+  padding-bottom:1cqmin;
+}
+
+.hero-sub {
+  font-size:.25em;
+  font-family: 'Montserrat', sans-serif;
+  margin 0 auto;
+  font-weight:400;
+  color:#ffff;
+}
+
+.pull-quote {
+  font-size:3em;
+  font-family: 'Montserrat', sans-serif;
+  margin 0 auto;
+  font-weight:700;
+  color:#f23030;
+  text-align:left;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.attribution {
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+  color:black;
+}
+
+@media(max-width:750px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+.hero-hed {
+    font-size: 1.5em;
+  }
+
+}
